@@ -1,0 +1,94 @@
+h1{
+ font-size: 1.5em;
+ }
+ h2{
+ font-size: 1.3em;
+ }
+ #cabecalho{
+ font-family: 'Major Mono Display', monospace;
+ color: black;
+ background-color: yellow;
+ border-style: none;
+ margin-bottom: 50px;
+ }
+ #intro {
+ color: black;
+ background-color: white;
+ border-style: none;
+ margin-bottom: 50px;
+ }
+ .container {
+ color: black ;
+ text-align: center;
+ border-style: none;
+ }
+ body {
+ font-family: 'Major Mono Display', monospace;
+ font-family: 'Roboto Condensed', sans-serif;
+ }
+ ul, li { /*Aqui eu alinho a lista*/
+ list-style-type: none;
+ display:inline;
+ margin: 0;
+ padding: 0 0 0 0px:
+ }
+ li{
+ font-size: 1em;
+ background-color: yellow;
+ border-color: black;
+ }
+ /*Toda a parte dos links é aqui embaixo, adicionei uma exceção aos links mais internos*/
+
+ a:link:not(#copeden):not(#aw):not(#dev), a:visited:not(#copeden):not(#aw):not(dev){
+ background-color: yellow;
+ text-align:center;
+ padding: 10px 20px;
+ text-decoration:none;
+ display:inline-block;
+ border-style: solid;
+ border-radius: 20px
+ }
+ a:visited{
+ color: purple;
+ }
+ a:hover{
+ color: blue;
+ background-color: white;
+ font-weight: bolder;
+ }
+ a{
+ font-family: 'Major Mono Display', monospace;
+ font-family: 'Roboto Condensed', sans-serif;
+ color: black;
+ }
+ #copeden:hover{
+ font-size: 15px;
+ }
+ #aw:hover{
+ font-size: 15px;
+ }
+/* Segunda seção*/
+#learn-css{
+ background-color: lightblue;
+ border-style: none;
+ margin-bottom: 50px;
+}
+/*Quarta seção*/
+#debug{
+ background-color: lightblue;
+ border-style: none;
+ margin-bottom: 50px;
+ margin-top: 50px;
+}
+/*Quinta seção*/
+#read{
+ background-color: lightgray;
+ border-style: none;
+ margin-bottom: 50px;
+}
+/*Sétima seção*/
+#practice{
+ background-color: lightblue;
+ margin-bottom: 50px;
+ margin-top: 50px;
+}
